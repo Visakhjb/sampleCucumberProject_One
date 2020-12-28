@@ -1,0 +1,1044 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Background Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on loginpage",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username as \"test\" and password as \"testpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 24
+                },
+                {
+                  "val": "testpassword",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_enter_login_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "stepDefintions.stepDefinition.homepage_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on button 3 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_clicks_on_button_times(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify \"pass\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_verify_something_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-27T08:44:25.634Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeHookStart()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeStart()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Create customer data",
+        "description": "",
+        "id": "validate-application-login-functionality;create-customer-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterHookFinish()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the TestCustomer1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCustomer1",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the TestAddress1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestAddress1",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the TestPhone1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestPhone1",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@webtest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Background Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on loginpage",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username as \"test\" and password as \"testpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 24
+                },
+                {
+                  "val": "testpassword",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_enter_login_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "stepDefintions.stepDefinition.homepage_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on button 3 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_clicks_on_button_times(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify \"pass\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_verify_something_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-27T08:44:26.036Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeHookStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeStart()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Create customer data",
+        "description": "",
+        "id": "validate-application-login-functionality;create-customer-data;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterHookFinish()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the TestCustomer2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCustomer2",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the TestAddress2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestAddress2",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the TestPhone2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestPhone2",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@webtest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Background Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on loginpage",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username as \"test\" and password as \"testpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 24
+                },
+                {
+                  "val": "testpassword",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_enter_login_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "stepDefintions.stepDefinition.homepage_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on button 3 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_clicks_on_button_times(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify \"pass\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_verify_something_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-27T08:44:26.054Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeHookStart()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeStart()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Create customer data",
+        "description": "",
+        "id": "validate-application-login-functionality;create-customer-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterHookFinish()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the TestCustomer3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCustomer3",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the TestAddress3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestAddress3",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the TestPhone3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestPhone3",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@webtest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Background Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on loginpage",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username as \"test\" and password as \"testpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 24
+                },
+                {
+                  "val": "testpassword",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_enter_login_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "stepDefintions.stepDefinition.homepage_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on button 3 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_clicks_on_button_times(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify \"pass\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_verify_something_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-27T08:44:26.076Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeHookStart()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeStart()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Create customer data",
+        "description": "",
+        "id": "validate-application-login-functionality;create-customer-data;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterHookFinish()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the TestCustomer4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCustomer4",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the TestAddress4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestAddress4",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the TestPhone4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestPhone4",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.enter_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@webtest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Background Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on loginpage",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username as \"test\" and password as \"testpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 24
+                },
+                {
+                  "val": "testpassword",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_enter_login_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefintions.stepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "stepDefintions.stepDefinition.homepage_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on button 3 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_clicks_on_button_times(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify \"pass\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefintions.stepDefinition.user_verify_something_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-27T08:44:26.098Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeMobileHookStart()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.beforeStart()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Create customer data",
+        "description": "",
+        "id": "validate-application-login-functionality;create-customer-data",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterFinish()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefintions.Hooks.afterMobileHookFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter customer information in page",
+            "match": {
+              "location": "stepDefintions.stepDefinition.enterCustomerInformaton(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TestCustomer",
+                  "TestAddress",
+                  "TestPhone"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@mobiletest"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Application Login functionality",
+    "description": "",
+    "id": "validate-application-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CreateCustomer.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

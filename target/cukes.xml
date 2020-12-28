@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.965">
+<testcase classname="Validate Application Login functionality" name="Create customer data" time="0.386">
+<system-out><![CDATA[Given User is on loginpage..................................................passed
+When user enter username as "test" and password as "testpassword"...........passed
+Then user clicks on login button............................................passed
+And homepage is displayed...................................................passed
+And user clicks on button 3 times...........................................passed
+And user verify "pass" message..............................................passed
+Then Enter the TestCustomer1................................................passed
+Then Enter the TestAddress1.................................................passed
+Then Enter the TestPhone1...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Application Login functionality" name="Create customer data 2" time="0.014">
+<system-out><![CDATA[Given User is on loginpage..................................................passed
+When user enter username as "test" and password as "testpassword"...........passed
+Then user clicks on login button............................................passed
+And homepage is displayed...................................................passed
+And user clicks on button 3 times...........................................passed
+And user verify "pass" message..............................................passed
+Then Enter the TestCustomer2................................................passed
+Then Enter the TestAddress2.................................................passed
+Then Enter the TestPhone2...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Application Login functionality" name="Create customer data 3" time="0.017">
+<system-out><![CDATA[Given User is on loginpage..................................................passed
+When user enter username as "test" and password as "testpassword"...........passed
+Then user clicks on login button............................................passed
+And homepage is displayed...................................................passed
+And user clicks on button 3 times...........................................passed
+And user verify "pass" message..............................................passed
+Then Enter the TestCustomer3................................................passed
+Then Enter the TestAddress3.................................................passed
+Then Enter the TestPhone3...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Application Login functionality" name="Create customer data 4" time="0.015">
+<system-out><![CDATA[Given User is on loginpage..................................................passed
+When user enter username as "test" and password as "testpassword"...........passed
+Then user clicks on login button............................................passed
+And homepage is displayed...................................................passed
+And user clicks on button 3 times...........................................passed
+And user verify "pass" message..............................................passed
+Then Enter the TestCustomer4................................................passed
+Then Enter the TestAddress4.................................................passed
+Then Enter the TestPhone4...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Application Login functionality" name="Create customer data 5" time="0.011">
+<system-out><![CDATA[Given User is on loginpage..................................................passed
+When user enter username as "test" and password as "testpassword"...........passed
+Then user clicks on login button............................................passed
+And homepage is displayed...................................................passed
+And user clicks on button 3 times...........................................passed
+And user verify "pass" message..............................................passed
+Then Enter customer information in page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
